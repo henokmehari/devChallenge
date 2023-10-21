@@ -1,83 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>My Frist Project</title>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonal page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;500&display=swap" rel="stylesheet">
-
-	<style type="text/css">
-		body{
-			margin: 0;
-			padding: 0;
-			background: #FAFAF9;
-			font-family: 'Sora', sans-serif;
-			height: 1000px;
-		}
-		section{
-			display: flex;
-			justify-content: center;
-			align-content: center;
-			margin-top: 164px;
-
-		}
-		div{
-			width: 336px;
-			box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
-			background-color: #FFFFFF;
-			border-radius: 20px;
-		}
-		img,p,button,h1{
-			margin: 16px;
-		}
-		img{
-			width: 306px;
-			border-radius: 18px;
-		}
-		button{
-			padding: 5px 16px;
-			font-size: 10px;
-			margin-top: 0;
-			font-weight: 1.125rem;
-			background-color: #E6D6FC;
-			border: none;
-			border-radius: 70px;
-			color: #883AE1;
-		}
-		hr{
-			color: #20293A;
-			margin: 16px;
-		}
-		h1{
-			font-size: 18px;
-			font-weight: 1.125rem;
-			padding-bottom: 0;
-		}
-		p{
-			font-size: 14px;
-			font-weight: 0.875rem;
-			margin-top: 0;
-			opacity: 0.7;
-		}
-		.annie{
-			font-size: 12px;
-			font-weight: 0.75rem;
-			opacity: 0.7;
-		}
-
-	</style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<section>
-		<div>
-			<img src="cactus_img.jpg" alt="xxx">
-			<button>Design</button>
-			<h1>Embracing Minimalism</h1>
-			<p>From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.</p>
-			<hr>
-			<p class="annie">Annie Spratt</p>
-		</div>
-	</section>
-
+    <section class="mainSection">
+        <section class="rewiew">
+            <div class="testiminy">
+                <div class="star">
+                <img src="image/Star_fill.svg" alt="" class="iconReview">
+                </div>
+                <h1>Reviewers</h1>
+                <p>Reviewers is where people can access guidelines, checklists, 
+                    and other tools to assist them in reviewing papers or manuscripts. 
+                    It provides a structured approach to ensure that the review process 
+                    is thorough, efficient, and consistent.
+                </p>
+            </div>
+            <div class="checklist">
+                <ul>
+                    <li><img src="image/Done_ring_round_fill.svg" alt="" class="tick">Checklist to Review an Academic Paper</li>
+                    <li><img src="image/Done_ring_round_fill.svg" alt="" class="tick">Peer Review Checklist</li>
+                    <li><img src="image/Done_ring_round_fill.svg" alt="" class="tick">Checklist for Editors, Reviewers, and Authors of SPIE Journals</li>
+                </ul>
+            </div>
+        </section>
+        <section class="pretner">
+            <div class="google">
+                <div class="user">
+                    <div class="icons">
+                      <img src="image/google-testimonial.png" alt="">
+                      <img src="image/Star_fill.svg" alt="" class="icon">
+                      <img src="image/Star_fill.svg" alt="" class="icon">
+                      <img src="image/Star_fill.svg" alt="" class="icon">
+                      <img src="image/Star_fill.svg" alt="" class="icon">
+                      <img src="image/Star_fill.svg" alt="" class="icon">
+                    </div>
+                    <h3>Samantha Lee</h3>
+                    <p>The checklist ensures that the review process is thorough</p>
+                </div>
+            </div>
+            <div class="meta">
+                <div class="user">
+                    <div class="icons">
+                    <img src="image/meta-testimonial.png" alt="">
+                    <img src="image/Star_fill.svg" alt="" class="icon">
+                    <img src="image/Star_fill.svg" alt="" class="icon">
+                    <img src="image/Star_fill.svg" alt="" class="icon">
+                    <img src="image/Star_fill.svg" alt="" class="icon">
+                    <img src="image/Star_fill.svg" alt="" class="icon">
+                    </div>
+                    <h3>Rachel Patel</h3>
+                    <p>I highly recommend the Writecream Business Description </p>
+                </div>
+            </div>
+        </section>
+    </section> 
 </body>
 </html>

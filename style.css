@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #000;
+    width: 1280px;
+    font-family: 'Sora', sans-serif;
+    color: #52525A;
+    background-color: #FAFAF9;
+    
+}
+.mainSection{
+    display: flex;
+    margin-left: 50px;
+}
+.mainSection .rewiew{
+    width: 600px;
+    margin-top: 100px;  
+}
+h1{
+    font-size: 36px;
+    font-weight: 2.6rem;
+    margin: 10px 0;
+}
+.rewiew p{
+    font-size: 20px;
+    font-weight: 1.25rem;
+    width: 72%;
+    opacity: 0.8;
+}
+.testiminy .star{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding: 6px;
+    background-color: #F5C044;
+}
+.testiminy img{
+    filter: invert(98%) sepia(100%) saturate(700%) hue-rotate(319deg) brightness(700%) contrast(90%);
+}
+.checklist ul img{
+    filter: invert(51%) sepia(20%) saturate(1102%) hue-rotate(75deg) brightness(103%) contrast(91%);
+    padding-right: 10px;
+} 
+.checklist ul li{
+    list-style: none;
+    color: #1f1d1d;
+    margin-left: -50px;
+    font-family: 'Sora', sans-serif;
+    font-size: 14px;
+    font-weight: 0.875rem;
+}
+.pretner{
+    margin-top: 50px;
+    position: absolute;
+    right: 50px;
+}
+.pretner .google, .meta{
+    width: 350px;
+    border-radius: 7px;
+    height: auto;
+    margin: 50px;
+    background-color: #FFFFFF;
+    box-shadow: #D4D4D8 0px 0px 1px 0px;
+}
+.pretner .user{
+    padding: 10px 10px;
+}
+.pretner .user h3, p{
+    font-size: 16px;
+    font-weight: 1rem;
+    opacity: 0.8;
+}
+.meta{
+    position: relative;
+    right: 120px;
+    top: 5px;
+    
+}
+.pretner .user .icons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 5px;
+}
+.pretner .user .icons img{
+    width: 80px;
+    height: 30px;
+    margin-left: 5px;
+}
+.pretner .user .icons .icon{
+    width: 30px;
+    filter: invert(98%) sepia(100%) saturate(750%) hue-rotate(319deg) brightness(135%) contrast(99%);
+
+}
+.pretner .google .icons .icon:nth-child(6){
+    filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(319deg) brightness(100%) contrast(99%);
+
+}
+
+@media screen and (max-width: 650px){
+    .mainSection{
+        display: block;
+    }
+}
